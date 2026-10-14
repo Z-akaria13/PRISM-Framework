@@ -1,0 +1,10 @@
+# Written by make_data.py
+images/
+metadata.csv
+model.pt
+# Results, reports and setups you make while trying the example
+out/
+*.h5
+*.json
+*.md
+!README.md

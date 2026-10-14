@@ -1,0 +1,9 @@
+# Written by make_data.py
+applications.csv
+model.joblib
+# Results, reports and setups you make while trying the example
+out/
+*.h5
+*.json
+*.md
+!README.md

@@ -1,0 +1,3 @@
+# Everything the test suite needs: PRISM itself (editable), PyTorch, the example models' packages
+# and the test tools. The same as: pip install -e ".[torch,examples,dev]"
+-e .[torch,examples,dev]

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use PRISM in your work, please cite it as below."
+title: "PRISM: Probing and Reporting Identity-based Shortcut Metrics"
+abstract: >-
+  PRISM audits trained models for demographic bias and shortcut learning. It runs a
+  model over a labelled dataset through a short connector script, stores its outputs and
+  hidden-layer activations, and reports performance and fairness gaps per subgroup with
+  subject-level bootstrap intervals, linear probes of hidden layers against
+  shuffled-label controls, and an error gallery. Runs work locally or on a SLURM cluster
+  and record what produced their results.
+type: software
+authors:
+  - given-names: Zakaria
+version: 1.0.0
+license: GPL-3.0-or-later
+keywords:
+  - fairness
+  - bias audit
+  - shortcut learning
+  - interpretability
+  - linear probing
+  - research software

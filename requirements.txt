@@ -1,0 +1,12 @@
+# PRISM's own dependencies, the same as pyproject.toml's. Installing the package is simpler:
+#   pip install -e ".[torch]"    for PyTorch models
+#   pip install -e .             for scikit-learn models
+#   pip install -e ".[keras]"    for Keras / TensorFlow models
+# Your model's framework is not listed here; install it as you normally would.
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+joblib>=1.2
+scipy>=1.11
+h5py>=3.9
+matplotlib>=3.7

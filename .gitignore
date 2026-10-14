@@ -1,0 +1,94 @@
+# ==========================================
+# PRISM Caches & Run Artifacts
+# ==========================================
+# HDF5 caches & atomic write files
+*.h5
+*.hdf5
+*.partial
+
+# PRISM output files (and legacy Whydunnit outputs)
+prism_embeddings*
+whydunnit_embeddings*
+prism_failed_rows.csv
+prism_metadata.csv
+whydunnit_metadata.csv
+
+# Cluster / SLURM dispatch artifacts
+prism_job_*.json
+prism_run_*.sh
+prism_log_*.txt
+slurm-*.out
+slurm-*.err
+
+# General output & run directories
+output/
+results/
+runs/
+logs/
+cache/
+
+# ==========================================
+# Large Datasets & Model Weights
+# (Never push scans or multi-gigabyte weights!)
+# ==========================================
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Medical imaging formats (NIfTI, DICOM)
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+
+# Data directories
+data/
+scans/
+raw_data/
+downloads/
+
+# ==========================================
+# Python & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Packaging & Distributions
+# ==========================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Testing & Code Quality
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# IDEs & Operating Systems
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
